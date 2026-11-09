@@ -10,7 +10,7 @@ const M = musicRaw as Music;
 const QUOTES = [{ text: 'A film is — or should be — more like music than like fiction.', by: 'Stanley Kubrick' }];
 const STATUSES = ['Watched', 'Watching', 'Up next', 'Dropped'];
 const KINDS = ['All', 'Film', 'Series', 'Anime', 'Doc'];
-const TABS = [['top', 'Top 10'], ['collections', 'Collections'], ['library', 'Library'], ['music', 'Music']] as const;
+const TABS = [['top', 'Top 12'], ['collections', 'Collections'], ['library', 'Library'], ['music', 'Music']] as const;
 type Tab = (typeof TABS)[number][0];
 const POSTER = 'https://image.tmdb.org/t/p/w185';
 
@@ -90,7 +90,7 @@ export default function App() {
 
         {tab === 'top' && (
           <section>
-            <h2>Top ten</h2>
+            <h2>Top twelve</h2>
             <ol className="grid">{top.map((t) => <Ticket key={t.title + t.year} t={t} n={t.rank ?? undefined} />)}</ol>
             {D.top.length > 0 && top.length === 0 && nothing}
           </section>

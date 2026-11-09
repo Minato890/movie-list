@@ -129,14 +129,14 @@ const items = rows.map(parse).filter((t) => {
 
 await addPosters(items);
 
-const listNames = [...new Set(items.flatMap((t) => t.lists).filter((n) => n !== 'Top 10'))]
+const listNames = [...new Set(items.flatMap((t) => t.lists).filter((n) => n !== 'Top 12'))]
   .sort((a, b) => {
     const ia = LIST_ORDER.indexOf(a), ib = LIST_ORDER.indexOf(b);
     return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib) || a.localeCompare(b);
   });
 
 const out = {
-  top: items.filter((t) => t.lists.includes('Top 10')).sort((a, b) => byNum(a.rank, b.rank) || byTitle(a, b)),
+  top: items.filter((t) => t.lists.includes('Top 12')).sort((a, b) => byNum(a.rank, b.rank) || byTitle(a, b)),
   lists: listNames.map((name) => ({
     name,
     items: items.filter((t) => t.lists.includes(name)).sort((a, b) => byNum(a.listRank, b.listRank) || byTitle(a, b)),
@@ -146,4 +146,4 @@ const out = {
 
 mkdirSync('data', { recursive: true });
 writeFileSync('data/movies.json', JSON.stringify(out, null, 2) + '\n');
-console.log(`Wrote data/movies.json: ${items.length} titles, ${out.top.length} in Top 10, ${out.lists.length} lists, ${items.filter((t) => t.poster).length} posters.`);
+console.log(`Wrote data/movies.json: ${items.length} titles, ${out.top.length} in Top 12, ${out.lists.length} lists, ${items.filter((t) => t.poster).length} posters.`);
