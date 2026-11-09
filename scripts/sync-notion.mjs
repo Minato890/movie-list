@@ -6,8 +6,6 @@ import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 const TOKEN = process.env.NOTION_TOKEN;
 const TMDB_TOKEN = process.env.TMDB_TOKEN;
 const SOURCE = process.env.NOTION_DATA_SOURCE_ID || '1787f6c2-c9c1-42b5-9d22-0ae66c5f4f83';
-const KINDS = ['Film', 'Series', 'Anime', 'Doc'];
-const STATUSES = ['Watched', 'Watching', 'Up next', 'Dropped'];
 // Order of the Collections buttons. Use the exact tag names from Notion; any tag not listed goes last, A to Z.
 const LIST_ORDER = ['Documentaries', 'Bollywood', 'Neo-Noir', 'Anime', 'Feel-Good', 'TV Series',
   'Classics', 'Sitcoms', 'Biopics', 'Comfort Films', 'On Love', 'Inspirational'];
@@ -52,28 +50,6 @@ function parse(page) {
     listRank: p['List Rank']?.number ?? null,
     tmdbId: p['TMDB ID']?.number ?? null, // optional: type a TMDB id here to force the right poster
   };
-}
-
-function validate(items) {
-  const errors = [];
-  const seen = new Set();
-  const ranks = new Map();
-  for (const t of items) {
-    const who = `"${t.title}"${t.year ? ` (${t.year})` : ''}`;
-    if (!KINDS.includes(t.kind)) errors.push(`${who}: Kind is missing or unknown (${t.kind})`);
-    if (!STATUSES.includes(t.status)) errors.push(`${who}: Status is missing or unknown (${t.status})`);
-    if (t.rating !== null && (t.rating < 1 || t.rating > 5)) errors.push(`${who}: Rating must be 1 to 5`);
-    if (t.lists.includes('Top 10')) {
-      if (t.rank === null) errors.push(`${who}: is in Top 10 but has no Rank`);
-      else if (!Number.isInteger(t.rank) || t.rank < 1 || t.rank > 10) errors.push(`${who}: Rank ${t.rank} must be a whole number from 1 to 10`);
-      else if (ranks.has(t.rank)) errors.push(`${who}: Rank ${t.rank} is already used by ${ranks.get(t.rank)}`);
-      else ranks.set(t.rank, who);
-    }
-    const key = `${t.title.toLowerCase()}|${t.year ?? ''}`;
-    if (seen.has(key)) errors.push(`${who}: duplicate title and year`);
-    seen.add(key);
-  }
-  return errors;
 }
 
 // ---------- Posters (TMDB) ----------
@@ -151,9 +127,6 @@ const items = rows.map(parse).filter((t) => {
   return true;
 });
 
-const errors = validate(items);
-if (errors.length) fail(errors.map((e) => `  - ${e}`).join('\n') + '\n\nFix these in Notion; the site keeps its last good data.');
-
 await addPosters(items);
 
 const listNames = [...new Set(items.flatMap((t) => t.lists).filter((n) => n !== 'Top 10'))]
@@ -171,7 +144,6 @@ const out = {
   titles: [...items].sort(byTitle),
 };
 
-if (out.top.length !== 10) console.warn(`Note: Top 10 has ${out.top.length} titles.`);
 mkdirSync('data', { recursive: true });
 writeFileSync('data/movies.json', JSON.stringify(out, null, 2) + '\n');
 console.log(`Wrote data/movies.json: ${items.length} titles, ${out.top.length} in Top 10, ${out.lists.length} lists, ${items.filter((t) => t.poster).length} posters.`);

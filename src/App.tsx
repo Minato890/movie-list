@@ -32,7 +32,7 @@ function Ticket({ t, n }: { t: Title; n?: number }) {
       <div>
         <b>{t.title}</b>
         <small>{t.year} {t.kind}</small>
-        {t.rating && <i aria-label={`${t.rating} of 5`}>{'★'.repeat(t.rating)}</i>}
+        {t.rating && <i aria-label={`${t.rating} of 5`}>{'★'.repeat(Math.max(0, Math.floor(t.rating)))}</i>}
         {t.note && <p>{t.note}</p>}
       </div>
     </li>
