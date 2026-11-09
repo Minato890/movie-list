@@ -17,19 +17,28 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
       - name: Read Notion and write data/movies.json
         run: node scripts/sync-notion.mjs
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          TMDB_TOKEN: ${{ secrets.TMDB_TOKEN }}
+      - name: Read Spotify and write data/music.json
+        if: ${{ !cancelled() }}
+        run: node scripts/sync-spotify.mjs
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
       - name: Save changes
+        if: ${{ !cancelled() }}
         run: |
-          if [ -n "$(git status --porcelain data/movies.json)" ]; then
+          if [ -n "$(git status --porcelain data)" ]; then
             git config user.name "cinema-sync[bot]"
             git config user.email "actions@users.noreply.github.com"
-            git add data/movies.json
-            git commit -m "Sync from Notion"
+            git add data/movies.json data/music.json
+            git commit -m "Sync from Notion and Spotify"
             git push
           else
-            echo "No changes in Notion."
+            echo "No changes."
           fi
