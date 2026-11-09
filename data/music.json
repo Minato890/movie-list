@@ -1,1 +1,101 @@
-{"artists":[],"tracks":[]}
+{
+  "artists": [
+    {
+      "name": "Kanye West",
+      "image": "https://i.scdn.co/image/ab676161000051746e835a500e791bf9c27a422a",
+      "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
+    },
+    {
+      "name": "RADWIMPS",
+      "image": "https://i.scdn.co/image/ab6761610000517461c979f8a7cdfe8fa2e8e909",
+      "url": "https://open.spotify.com/artist/1EowJ1WwkMzkCkRomFhui7"
+    },
+    {
+      "name": "BBHF",
+      "image": "https://i.scdn.co/image/ab67616100005174b4fff3e76f467aee68c35b03",
+      "url": "https://open.spotify.com/artist/5gEQL7osnggthis6rBwYoY"
+    },
+    {
+      "name": "Kendrick Lamar",
+      "image": "https://i.scdn.co/image/ab6761610000517439ba6dcd4355c03de0b50918",
+      "url": "https://open.spotify.com/artist/2YZyLoL8N0Wb9xBt1NhZWg"
+    },
+    {
+      "name": "The Weeknd",
+      "image": "https://i.scdn.co/image/ab67616100005174c1719ac9e6a75c1c25835018",
+      "url": "https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ"
+    },
+    {
+      "name": "KR$NA",
+      "image": "https://i.scdn.co/image/ab6761610000517433a750f4e8264286af8e751a",
+      "url": "https://open.spotify.com/artist/5C1S9XwxMuuCciutwMhp5t"
+    },
+    {
+      "name": "JAŸ-Z",
+      "image": "https://i.scdn.co/image/ab6761610000517473de139b5475bf01f2bff759",
+      "url": "https://open.spotify.com/artist/3nFkdlSjzX9mRTtwJOzDYB"
+    }
+  ],
+  "tracks": [
+    {
+      "name": "スパークル",
+      "sub": "RADWIMPS",
+      "image": "https://i.scdn.co/image/ab67616d00001e021b70a19a834b7f15d33fe523",
+      "url": "https://open.spotify.com/track/1HdqMIGjLm8wkL4vWDcFPm"
+    },
+    {
+      "name": "FATHER (feat. Travis Scott)",
+      "sub": "Kanye West, Ye, Travis Scott",
+      "image": "https://i.scdn.co/image/ab67616d00001e0295184f6a953569b683ca9a0d",
+      "url": "https://open.spotify.com/track/5pfn68duSmBKo4FhYknOms"
+    },
+    {
+      "name": "Heartless",
+      "sub": "Kanye West",
+      "image": "https://i.scdn.co/image/ab67616d00001e02346d77e155d854735410ed18",
+      "url": "https://open.spotify.com/track/4EWCNWgDS8707fNSZ1oaA5"
+    },
+    {
+      "name": "I Am A God",
+      "sub": "Kanye West",
+      "image": "https://i.scdn.co/image/ab67616d00001e021dacfbc31cc873d132958af9",
+      "url": "https://open.spotify.com/track/0HMCdlOPJkAGlB0MlSWIcO"
+    },
+    {
+      "name": "Homecoming",
+      "sub": "Kanye West, Chris Martin",
+      "image": "https://i.scdn.co/image/ab67616d00001e0226f7f19c7f0381e56156c94a",
+      "url": "https://open.spotify.com/track/4iz9lGMjU1lXS51oPmUmTe"
+    },
+    {
+      "name": "Black Skinhead",
+      "sub": "Kanye West",
+      "image": "https://i.scdn.co/image/ab67616d00001e021dacfbc31cc873d132958af9",
+      "url": "https://open.spotify.com/track/722tgOgdIbNe3BEyLnejw4"
+    },
+    {
+      "name": "真夜中のダンス",
+      "sub": "BBHF",
+      "image": "https://i.scdn.co/image/ab67616d00001e02ee1526fa7e28cb47fe58332d",
+      "url": "https://open.spotify.com/track/3sf7FfGceze6s4vkfXjMij"
+    },
+    {
+      "name": "No Church In The Wild",
+      "sub": "JAŸ-Z, Kanye West, Frank Ocean, THE-DREAM",
+      "image": "https://i.scdn.co/image/ab67616d00001e0252e61456aa4995ba48d94e30",
+      "url": "https://open.spotify.com/track/7r6PigmGzlB3YPB7wvBBbi"
+    },
+    {
+      "name": "POWER",
+      "sub": "Kanye West",
+      "image": "https://i.scdn.co/image/ab67616d00001e02d9194aa18fa4c9362b47464f",
+      "url": "https://open.spotify.com/track/2gZUPNdnz5Y45eiGxpHGSc"
+    },
+    {
+      "name": "Stronger",
+      "sub": "Kanye West",
+      "image": "https://i.scdn.co/image/ab67616d00001e0226f7f19c7f0381e56156c94a",
+      "url": "https://open.spotify.com/track/0j2T0R9dR9qdJYsB7ciXhf"
+    }
+  ]
+}
