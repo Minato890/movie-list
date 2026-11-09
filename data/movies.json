@@ -1,187 +1,5 @@
 {
-  "top": [
-    {
-      "title": "Stalker",
-      "year": 1979,
-      "kind": "Film",
-      "status": "Watched",
-      "rating": null,
-      "note": null,
-      "lists": [
-        "Top 10"
-      ],
-      "rank": 1,
-      "listRank": null,
-      "tmdbId": null,
-      "poster": "/1qhOyf5C4s9ZdvY8d5JDx9DFMeT.jpg"
-    },
-    {
-      "title": "Yi Yi",
-      "year": 2000,
-      "kind": "Film",
-      "status": "Watched",
-      "rating": null,
-      "note": null,
-      "lists": [
-        "Top 10"
-      ],
-      "rank": 2,
-      "listRank": null,
-      "tmdbId": null,
-      "poster": "/mR8dSQZI8X6Z1NClJhFrtJp636z.jpg"
-    },
-    {
-      "title": "Memories of Murder",
-      "year": 2003,
-      "kind": "Film",
-      "status": "Watched",
-      "rating": null,
-      "note": null,
-      "lists": [
-        "Top 10",
-        "Neo-Noir"
-      ],
-      "rank": 3,
-      "listRank": 1,
-      "tmdbId": null,
-      "poster": "/jcgUjx1QcupGzjntTVlnQ15lHqy.jpg"
-    },
-    {
-      "title": "Perfect Blue",
-      "year": 1997,
-      "kind": "Anime",
-      "status": "Watched",
-      "rating": null,
-      "note": null,
-      "lists": [
-        "Top 10"
-      ],
-      "rank": 4,
-      "listRank": null,
-      "tmdbId": null,
-      "poster": "/6WTiOCfDPP8XV4jqfloiVWf7KHq.jpg"
-    },
-    {
-      "title": "Requiem for a Dream",
-      "year": 2000,
-      "kind": "Film",
-      "status": "Watched",
-      "rating": null,
-      "note": null,
-      "lists": [
-        "Top 10"
-      ],
-      "rank": 5,
-      "listRank": null,
-      "tmdbId": null,
-      "poster": "/9BTwsLaMVHOGFlmsSlx5QYCaXb.jpg"
-    },
-    {
-      "title": "In the Mood for Love",
-      "year": 2000,
-      "kind": "Film",
-      "status": "Watched",
-      "rating": null,
-      "note": null,
-      "lists": [
-        "Top 10"
-      ],
-      "rank": 6,
-      "listRank": null,
-      "tmdbId": null,
-      "poster": "/8BgGbbWiLNhPtkMkN0gGTnbtvBv.jpg"
-    },
-    {
-      "title": "Chungking Express",
-      "year": 1994,
-      "kind": "Film",
-      "status": "Watched",
-      "rating": null,
-      "note": null,
-      "lists": [
-        "Top 10"
-      ],
-      "rank": 7,
-      "listRank": null,
-      "tmdbId": null,
-      "poster": "/43I9DcNoCzpyzK8JCkJYpHqHqGG.jpg"
-    },
-    {
-      "title": "Mirror",
-      "year": 1975,
-      "kind": "Film",
-      "status": "Watched",
-      "rating": null,
-      "note": null,
-      "lists": [
-        "Top 10"
-      ],
-      "rank": 8,
-      "listRank": null,
-      "tmdbId": null,
-      "poster": "/AttDP5OEsMxtHPPN7Z92p2Ntnmd.jpg"
-    },
-    {
-      "title": "Fight Club",
-      "year": 1999,
-      "kind": "Film",
-      "status": "Watched",
-      "rating": null,
-      "note": null,
-      "lists": [
-        "Top 10"
-      ],
-      "rank": 9,
-      "listRank": null,
-      "tmdbId": null,
-      "poster": "/jSziioSwPVrOy9Yow3XhWIBDjq1.jpg"
-    },
-    {
-      "title": "Trainspotting",
-      "year": 1996,
-      "kind": "Film",
-      "status": "Watched",
-      "rating": null,
-      "note": null,
-      "lists": [
-        "Top 10"
-      ],
-      "rank": 9,
-      "listRank": null,
-      "tmdbId": null,
-      "poster": "/1jUC02qsqS2NxBMFarbIhcQtazV.jpg"
-    },
-    {
-      "title": "2001: A Space Odyssey",
-      "year": 1968,
-      "kind": "Film",
-      "status": "Watched",
-      "rating": null,
-      "note": null,
-      "lists": [
-        "Top 10"
-      ],
-      "rank": 10,
-      "listRank": null,
-      "tmdbId": null,
-      "poster": "/ve72VxNqjGM69Uky4WTo2bK6rfq.jpg"
-    },
-    {
-      "title": "12 Angry Men",
-      "year": 1957,
-      "kind": "Film",
-      "status": "Watched",
-      "rating": null,
-      "note": null,
-      "lists": [
-        "Top 10"
-      ],
-      "rank": 11,
-      "listRank": null,
-      "tmdbId": null,
-      "poster": "/zhG3vKWyDRaZYoaww1UVAi29T9h.jpg"
-    }
-  ],
+  "top": [],
   "lists": [
     {
       "name": "Documentaries",
@@ -354,7 +172,7 @@
           "rating": null,
           "note": null,
           "lists": [
-            "Top 10",
+            "Top 12",
             "Neo-Noir"
           ],
           "rank": 3,
@@ -1188,6 +1006,192 @@
           "poster": "/jcfEqKdWF1zeyvECPqp3mkWLct2.jpg"
         }
       ]
+    },
+    {
+      "name": "Top 12",
+      "items": [
+        {
+          "title": "Memories of Murder",
+          "year": 2003,
+          "kind": "Film",
+          "status": "Watched",
+          "rating": null,
+          "note": null,
+          "lists": [
+            "Top 12",
+            "Neo-Noir"
+          ],
+          "rank": 3,
+          "listRank": 1,
+          "tmdbId": null,
+          "poster": "/jcgUjx1QcupGzjntTVlnQ15lHqy.jpg"
+        },
+        {
+          "title": "12 Angry Men",
+          "year": 1957,
+          "kind": "Film",
+          "status": "Watched",
+          "rating": null,
+          "note": null,
+          "lists": [
+            "Top 12"
+          ],
+          "rank": 12,
+          "listRank": null,
+          "tmdbId": null,
+          "poster": "/zhG3vKWyDRaZYoaww1UVAi29T9h.jpg"
+        },
+        {
+          "title": "2001: A Space Odyssey",
+          "year": 1968,
+          "kind": "Film",
+          "status": "Watched",
+          "rating": null,
+          "note": null,
+          "lists": [
+            "Top 12"
+          ],
+          "rank": 11,
+          "listRank": null,
+          "tmdbId": null,
+          "poster": "/ve72VxNqjGM69Uky4WTo2bK6rfq.jpg"
+        },
+        {
+          "title": "Chungking Express",
+          "year": 1994,
+          "kind": "Film",
+          "status": "Watched",
+          "rating": null,
+          "note": null,
+          "lists": [
+            "Top 12"
+          ],
+          "rank": 7,
+          "listRank": null,
+          "tmdbId": null,
+          "poster": "/43I9DcNoCzpyzK8JCkJYpHqHqGG.jpg"
+        },
+        {
+          "title": "Fight Club",
+          "year": 1999,
+          "kind": "Film",
+          "status": "Watched",
+          "rating": null,
+          "note": null,
+          "lists": [
+            "Top 12"
+          ],
+          "rank": 9,
+          "listRank": null,
+          "tmdbId": null,
+          "poster": "/jSziioSwPVrOy9Yow3XhWIBDjq1.jpg"
+        },
+        {
+          "title": "In the Mood for Love",
+          "year": 2000,
+          "kind": "Film",
+          "status": "Watched",
+          "rating": null,
+          "note": null,
+          "lists": [
+            "Top 12"
+          ],
+          "rank": 6,
+          "listRank": null,
+          "tmdbId": null,
+          "poster": "/8BgGbbWiLNhPtkMkN0gGTnbtvBv.jpg"
+        },
+        {
+          "title": "Mirror",
+          "year": 1975,
+          "kind": "Film",
+          "status": "Watched",
+          "rating": null,
+          "note": null,
+          "lists": [
+            "Top 12"
+          ],
+          "rank": 8,
+          "listRank": null,
+          "tmdbId": null,
+          "poster": "/AttDP5OEsMxtHPPN7Z92p2Ntnmd.jpg"
+        },
+        {
+          "title": "Perfect Blue",
+          "year": 1997,
+          "kind": "Anime",
+          "status": "Watched",
+          "rating": null,
+          "note": null,
+          "lists": [
+            "Top 12"
+          ],
+          "rank": 4,
+          "listRank": null,
+          "tmdbId": null,
+          "poster": "/6WTiOCfDPP8XV4jqfloiVWf7KHq.jpg"
+        },
+        {
+          "title": "Requiem for a Dream",
+          "year": 2000,
+          "kind": "Film",
+          "status": "Watched",
+          "rating": null,
+          "note": null,
+          "lists": [
+            "Top 12"
+          ],
+          "rank": 5,
+          "listRank": null,
+          "tmdbId": null,
+          "poster": "/9BTwsLaMVHOGFlmsSlx5QYCaXb.jpg"
+        },
+        {
+          "title": "Stalker",
+          "year": 1979,
+          "kind": "Film",
+          "status": "Watched",
+          "rating": null,
+          "note": null,
+          "lists": [
+            "Top 12"
+          ],
+          "rank": 1,
+          "listRank": null,
+          "tmdbId": null,
+          "poster": "/1qhOyf5C4s9ZdvY8d5JDx9DFMeT.jpg"
+        },
+        {
+          "title": "Trainspotting",
+          "year": 1996,
+          "kind": "Film",
+          "status": "Watched",
+          "rating": null,
+          "note": null,
+          "lists": [
+            "Top 12"
+          ],
+          "rank": 10,
+          "listRank": null,
+          "tmdbId": null,
+          "poster": "/1jUC02qsqS2NxBMFarbIhcQtazV.jpg"
+        },
+        {
+          "title": "Yi Yi",
+          "year": 2000,
+          "kind": "Film",
+          "status": "Watched",
+          "rating": null,
+          "note": null,
+          "lists": [
+            "Top 12"
+          ],
+          "rank": 2,
+          "listRank": null,
+          "tmdbId": null,
+          "poster": "/mR8dSQZI8X6Z1NClJhFrtJp636z.jpg"
+        }
+      ]
     }
   ],
   "titles": [
@@ -1199,9 +1203,9 @@
       "rating": null,
       "note": null,
       "lists": [
-        "Top 10"
+        "Top 12"
       ],
-      "rank": 11,
+      "rank": 12,
       "listRank": null,
       "tmdbId": null,
       "poster": "/zhG3vKWyDRaZYoaww1UVAi29T9h.jpg"
@@ -1244,9 +1248,9 @@
       "rating": null,
       "note": null,
       "lists": [
-        "Top 10"
+        "Top 12"
       ],
-      "rank": 10,
+      "rank": 11,
       "listRank": null,
       "tmdbId": null,
       "poster": "/ve72VxNqjGM69Uky4WTo2bK6rfq.jpg"
@@ -1487,6 +1491,19 @@
       "poster": "/nWuo6jWdvqLX0zZ9zmOdQObDCHD.jpg"
     },
     {
+      "title": "Bocchi the Rock! S1",
+      "year": 2022,
+      "kind": "Anime",
+      "status": "Watching",
+      "rating": null,
+      "note": null,
+      "lists": [],
+      "rank": null,
+      "listRank": null,
+      "tmdbId": null,
+      "poster": null
+    },
+    {
       "title": "Bohemian Rhapsody",
       "year": 2018,
       "kind": "Film",
@@ -1617,9 +1634,9 @@
     },
     {
       "title": "Chloe at Emma S1",
-      "year": null,
+      "year": 2026,
       "kind": "Series",
-      "status": "Watching",
+      "status": "Dropped",
       "rating": null,
       "note": null,
       "lists": [],
@@ -1636,7 +1653,7 @@
       "rating": null,
       "note": null,
       "lists": [
-        "Top 10"
+        "Top 12"
       ],
       "rank": 7,
       "listRank": null,
@@ -1741,6 +1758,19 @@
       "poster": "/7Fdh7gUq3plvQqxRbNYhWvDABXA.jpg"
     },
     {
+      "title": "Dangal",
+      "year": 2016,
+      "kind": "Film",
+      "status": "Up next",
+      "rating": null,
+      "note": null,
+      "lists": [],
+      "rank": null,
+      "listRank": null,
+      "tmdbId": null,
+      "poster": "/cJRPOLEexI7qp2DKtFfCh7YaaUG.jpg"
+    },
+    {
       "title": "Dead Poets Society",
       "year": 1989,
       "kind": "Film",
@@ -1795,6 +1825,19 @@
       "poster": "/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg"
     },
     {
+      "title": "Drishyam",
+      "year": 2015,
+      "kind": "Film",
+      "status": "Up next",
+      "rating": null,
+      "note": null,
+      "lists": [],
+      "rank": null,
+      "listRank": null,
+      "tmdbId": null,
+      "poster": "/gIClWRv5OSe8rl5Koi0AeUcCZ9Z.jpg"
+    },
+    {
       "title": "Drive My Car",
       "year": 2021,
       "kind": "Film",
@@ -1809,9 +1852,9 @@
     },
     {
       "title": "Drive to Survive S8",
-      "year": null,
+      "year": 2026,
       "kind": "Series",
-      "status": "Watching",
+      "status": "Watched",
       "rating": null,
       "note": null,
       "lists": [],
@@ -1882,7 +1925,7 @@
       "rating": null,
       "note": null,
       "lists": [
-        "Top 10"
+        "Top 12"
       ],
       "rank": 9,
       "listRank": null,
@@ -2099,6 +2142,19 @@
       "poster": "/kO4KjUkQOfWSBw06Bdl7m6AlEP7.jpg"
     },
     {
+      "title": "Harry Potter and the Deathly Hallows: Part 2",
+      "year": 2011,
+      "kind": "Film",
+      "status": "Up next",
+      "rating": null,
+      "note": null,
+      "lists": [],
+      "rank": null,
+      "listRank": null,
+      "tmdbId": null,
+      "poster": "/iGoXIpQb7Pot00EEdwpwPajheZ5.jpg"
+    },
+    {
       "title": "Have a Good Trip",
       "year": 2020,
       "kind": "Doc",
@@ -2186,7 +2242,7 @@
       "rating": null,
       "note": null,
       "lists": [
-        "Top 10"
+        "Top 12"
       ],
       "rank": 6,
       "listRank": null,
@@ -2220,6 +2276,19 @@
       "listRank": null,
       "tmdbId": null,
       "poster": "/bSqt9rhDZx1Q7UZ86dBPKdNomp2.jpg"
+    },
+    {
+      "title": "Jurassic Park",
+      "year": 1993,
+      "kind": "Film",
+      "status": "Up next",
+      "rating": null,
+      "note": null,
+      "lists": [],
+      "rank": null,
+      "listRank": null,
+      "tmdbId": null,
+      "poster": "/d9mtMGQDLANKieb9PbD3yK7xxzo.jpg"
     },
     {
       "title": "Kabir Singh",
@@ -2365,7 +2434,7 @@
       "rating": null,
       "note": null,
       "lists": [
-        "Top 10",
+        "Top 12",
         "Neo-Noir"
       ],
       "rank": 3,
@@ -2411,7 +2480,7 @@
       "rating": null,
       "note": null,
       "lists": [
-        "Top 10"
+        "Top 12"
       ],
       "rank": 8,
       "listRank": null,
@@ -2456,6 +2525,19 @@
       "listRank": null,
       "tmdbId": null,
       "poster": "/lakuk8UpDUBrO5c8uoWbKxy5j0e.jpg"
+    },
+    {
+      "title": "My Neighbor Totoro",
+      "year": 1988,
+      "kind": "Anime",
+      "status": "Up next",
+      "rating": null,
+      "note": null,
+      "lists": [],
+      "rank": null,
+      "listRank": null,
+      "tmdbId": null,
+      "poster": "/rtGDOeG9LzoerkDGZF9dnVeLppL.jpg"
     },
     {
       "title": "My Octopus Teacher",
@@ -2614,7 +2696,7 @@
       "rating": null,
       "note": null,
       "lists": [
-        "Top 10"
+        "Top 12"
       ],
       "rank": 4,
       "listRank": null,
@@ -2633,6 +2715,19 @@
       "listRank": null,
       "tmdbId": null,
       "poster": "/tvUHVSTJV9ITON3oyHaWp7oaAc8.jpg"
+    },
+    {
+      "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+      "year": 2003,
+      "kind": "Film",
+      "status": "Up next",
+      "rating": null,
+      "note": null,
+      "lists": [],
+      "rank": null,
+      "listRank": null,
+      "tmdbId": null,
+      "poster": "/poHwCZeWzJCShH7tOjg8RIoyjcw.jpg"
     },
     {
       "title": "Portrait of a Lady on Fire",
@@ -2698,7 +2793,7 @@
       "rating": null,
       "note": null,
       "lists": [
-        "Top 10"
+        "Top 12"
       ],
       "rank": 5,
       "listRank": null,
@@ -2732,6 +2827,19 @@
       "listRank": 5,
       "tmdbId": null,
       "poster": "/cJZC9riwrdATBUonkZJZD6y9g40.jpg"
+    },
+    {
+      "title": "Rocky",
+      "year": 1976,
+      "kind": "Film",
+      "status": "Up next",
+      "rating": null,
+      "note": null,
+      "lists": [],
+      "rank": null,
+      "listRank": null,
+      "tmdbId": null,
+      "poster": "/1mcJmdbRLusxhoSGjFI3pbEboXt.jpg"
     },
     {
       "title": "Sátántangó",
@@ -2835,6 +2943,19 @@
       "poster": "/3DEWsJv0OxHON7AEy4Us6m3e7fS.jpg"
     },
     {
+      "title": "Spider-Man: No Way Home",
+      "year": 2021,
+      "kind": "Film",
+      "status": "Up next",
+      "rating": null,
+      "note": null,
+      "lists": [],
+      "rank": null,
+      "listRank": null,
+      "tmdbId": null,
+      "poster": "/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg"
+    },
+    {
       "title": "Stalker",
       "year": 1979,
       "kind": "Film",
@@ -2842,7 +2963,7 @@
       "rating": null,
       "note": null,
       "lists": [
-        "Top 10"
+        "Top 12"
       ],
       "rank": 1,
       "listRank": null,
@@ -2933,9 +3054,9 @@
     },
     {
       "title": "Terrace House: Karuizawa",
-      "year": null,
+      "year": 2017,
       "kind": "Series",
-      "status": "Watching",
+      "status": "Watched",
       "rating": null,
       "note": null,
       "lists": [],
@@ -3053,6 +3174,32 @@
       "listRank": 4,
       "tmdbId": null,
       "poster": "/8bokS83zGdhaXgN9tjidUKmAftW.jpg"
+    },
+    {
+      "title": "The Godfather",
+      "year": 1972,
+      "kind": "Film",
+      "status": "Up next",
+      "rating": null,
+      "note": null,
+      "lists": [],
+      "rank": null,
+      "listRank": null,
+      "tmdbId": null,
+      "poster": "/3bhkrj58Vtu7enYsRolD1fZdja1.jpg"
+    },
+    {
+      "title": "The Godfather Part II",
+      "year": 1974,
+      "kind": "Film",
+      "status": "Up next",
+      "rating": null,
+      "note": null,
+      "lists": [],
+      "rank": null,
+      "listRank": null,
+      "tmdbId": null,
+      "poster": "/8a1lJs7mFyGhGhZZDT1azJUoQiZ.jpg"
     },
     {
       "title": "The Handmaiden",
@@ -3327,9 +3474,9 @@
       "rating": null,
       "note": null,
       "lists": [
-        "Top 10"
+        "Top 12"
       ],
-      "rank": 9,
+      "rank": 10,
       "listRank": null,
       "tmdbId": null,
       "poster": "/1jUC02qsqS2NxBMFarbIhcQtazV.jpg"
@@ -3424,7 +3571,7 @@
       "rating": null,
       "note": null,
       "lists": [
-        "Top 10"
+        "Top 12"
       ],
       "rank": 2,
       "listRank": null,
