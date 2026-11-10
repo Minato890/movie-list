@@ -6,14 +6,14 @@
       "url": "https://open.spotify.com/artist/5K4W6rqBFWDnAN6FQUkS6x"
     },
     {
-      "name": "RADWIMPS",
-      "image": "https://i.scdn.co/image/ab6761610000517461c979f8a7cdfe8fa2e8e909",
-      "url": "https://open.spotify.com/artist/1EowJ1WwkMzkCkRomFhui7"
-    },
-    {
       "name": "BBHF",
       "image": "https://i.scdn.co/image/ab67616100005174b4fff3e76f467aee68c35b03",
       "url": "https://open.spotify.com/artist/5gEQL7osnggthis6rBwYoY"
+    },
+    {
+      "name": "RADWIMPS",
+      "image": "https://i.scdn.co/image/ab6761610000517461c979f8a7cdfe8fa2e8e909",
+      "url": "https://open.spotify.com/artist/1EowJ1WwkMzkCkRomFhui7"
     },
     {
       "name": "Kendrick Lamar",
@@ -68,16 +68,16 @@
       "url": "https://open.spotify.com/track/4iz9lGMjU1lXS51oPmUmTe"
     },
     {
-      "name": "No Church In The Wild",
-      "sub": "JAŸ-Z, Kanye West, Frank Ocean, THE-DREAM",
-      "image": "https://i.scdn.co/image/ab67616d00001e0252e61456aa4995ba48d94e30",
-      "url": "https://open.spotify.com/track/7r6PigmGzlB3YPB7wvBBbi"
-    },
-    {
       "name": "真夜中のダンス",
       "sub": "BBHF",
       "image": "https://i.scdn.co/image/ab67616d00001e02ee1526fa7e28cb47fe58332d",
       "url": "https://open.spotify.com/track/3sf7FfGceze6s4vkfXjMij"
+    },
+    {
+      "name": "No Church In The Wild",
+      "sub": "JAŸ-Z, Kanye West, Frank Ocean, THE-DREAM",
+      "image": "https://i.scdn.co/image/ab67616d00001e0252e61456aa4995ba48d94e30",
+      "url": "https://open.spotify.com/track/7r6PigmGzlB3YPB7wvBBbi"
     },
     {
       "name": "Black Skinhead",
