@@ -26,14 +26,14 @@
       "url": "https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ"
     },
     {
-      "name": "KR$NA",
-      "image": "https://i.scdn.co/image/ab6761610000517433a750f4e8264286af8e751a",
-      "url": "https://open.spotify.com/artist/5C1S9XwxMuuCciutwMhp5t"
-    },
-    {
       "name": "JAŸ-Z",
       "image": "https://i.scdn.co/image/ab6761610000517473de139b5475bf01f2bff759",
       "url": "https://open.spotify.com/artist/3nFkdlSjzX9mRTtwJOzDYB"
+    },
+    {
+      "name": "KR$NA",
+      "image": "https://i.scdn.co/image/ab6761610000517433a750f4e8264286af8e751a",
+      "url": "https://open.spotify.com/artist/5C1S9XwxMuuCciutwMhp5t"
     }
   ],
   "tracks": [
