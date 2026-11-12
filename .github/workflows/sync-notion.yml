@@ -30,14 +30,18 @@ jobs:
           SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
           SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
           SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+      - name: Read MyAnimeList and write data/anime.json
+        if: ${{ !cancelled() }}
+        run: node scripts/sync-mal.mjs
+        continue-on-error: true
       - name: Save changes
         if: ${{ !cancelled() }}
         run: |
           if [ -n "$(git status --porcelain data)" ]; then
             git config user.name "cinema-sync[bot]"
             git config user.email "actions@users.noreply.github.com"
-            git add data/movies.json data/music.json
-            git commit -m "Sync from Notion and Spotify"
+            git add data/movies.json data/music.json data/anime.json
+            git commit -m "Sync from Notion, Spotify, and MyAnimeList"
             git push
           else
             echo "No changes."

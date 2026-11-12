@@ -1,16 +1,19 @@
 import { useMemo, useState } from 'react';
 import raw from '../data/movies.json';
 import musicRaw from '../data/music.json';
-import type { Data, Music, Pick, Title } from './types';
+import animeRaw from '../data/anime.json';
+import type { AnimeEntry, Data, Music, Pick, Title } from './types';
 import { PLAYLISTS, SPOTIFY_PROFILE } from './config';
 
 const D = raw as Data;
 const M = musicRaw as Music;
+const A = (animeRaw as { entries: AnimeEntry[] }).entries;
 // Add more quotes here; one is picked at random per visit.
 const QUOTES = [{ text: 'A film is — or should be — more like music than like fiction.', by: 'Stanley Kubrick' }];
 const STATUSES = ['Watched', 'Watching', 'Up next', 'Dropped'];
 const KINDS = ['All', 'Film', 'Series', 'Anime', 'Doc'];
-const TABS = [['top', 'Top 12'], ['collections', 'Collections'], ['library', 'Library'], ['music', 'Music']] as const;
+const ASTATUS = ['Watching', 'Completed', 'On hold', 'Dropped', 'Plan to watch'];
+const TABS = [['top', 'Top 12'], ['collections', 'Collections'], ['library', 'Library'], ['anime', 'Anime'], ['music', 'Music']] as const;
 type Tab = (typeof TABS)[number][0];
 const POSTER = 'https://image.tmdb.org/t/p/w185';
 
@@ -58,6 +61,7 @@ export default function App() {
   const [status, setStatus] = useState('Watched');
   const [kind, setKind] = useState('All');
   const [pick, setPick] = useState('');
+  const [astat, setAstat] = useState('Watching');
   const quote = useMemo(() => QUOTES[Math.floor(Math.random() * QUOTES.length)], []);
   const s = q.trim().toLowerCase();
 
@@ -66,6 +70,8 @@ export default function App() {
   const active = D.lists.find((l) => l.name === pick) ?? D.lists[0];
   const library = D.titles.filter((t) => (s || t.status === status) && (kind === 'All' || t.kind === kind) && match(t, s));
   const count = (st: string) => D.titles.filter((t) => t.status === st).length;
+  const anime = A.filter((a) => (s || a.status === astat) && a.title.toLowerCase().includes(s));
+  const animeCount = (st: string) => A.filter((a) => a.status === st).length;
   const embeds = PLAYLISTS.map(playlistId).filter((id): id is string => !!id);
   const nothing = <p className="empty">Nothing matches that.</p>;
 
@@ -86,7 +92,7 @@ export default function App() {
       </div>
 
       <main>
-        {D.titles.length === 0 && tab !== 'music' && <p className="empty">No data yet. Run “Sync from Notion” in the repo’s Actions tab.</p>}
+        {D.titles.length === 0 && tab !== 'music' && tab !== 'anime' && <p className="empty">No data yet. Run “Sync from Notion” in the repo’s Actions tab.</p>}
 
         {tab === 'top' && (
           <section>
@@ -126,6 +132,28 @@ export default function App() {
             </div>
             <ul className="grid small">{library.map((t) => <Ticket key={t.title + t.year} t={t} />)}</ul>
             {D.titles.length > 0 && library.length === 0 && nothing}
+          </section>
+        )}
+
+        {tab === 'anime' && (
+          <section>
+            <h2>My anime list</h2>
+            <div className="chips" role="group" aria-label="Anime status">
+              {ASTATUS.map((st) => <button key={st} aria-pressed={!s && astat === st} onClick={() => { setAstat(st); setQ(''); }}>{st} {animeCount(st)}</button>)}
+            </div>
+            <ul className="posters">
+              {anime.map((a) => (
+                <li key={a.id}>
+                  <a href={a.url} target="_blank" rel="noreferrer">
+                    {a.image ? <img src={a.image} alt="" loading="lazy" referrerPolicy="no-referrer" /> : <div className="noimg" />}
+                    <b>{a.title}</b>
+                    <small>{a.score ? `★ ${a.score}/10 · ` : ''}{a.episodes}{a.total ? `/${a.total}` : ''} ep</small>
+                  </a>
+                </li>
+              ))}
+            </ul>
+            {A.length === 0 && <p className="empty">No anime data yet. Run “Sync from Notion” in the repo’s Actions tab.</p>}
+            {A.length > 0 && anime.length === 0 && nothing}
           </section>
         )}
 

@@ -42,5 +42,11 @@ main{min-height:60vh}
 .chips button[aria-pressed=true]{background:var(--bulb);color:var(--ink)}
 .gap{width:1.2rem}
 .empty{color:var(--dim);margin-top:2rem}
+.posters{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:1rem}
+.posters a{display:block;color:var(--paper);text-decoration:none}
+.posters img,.noimg{width:100%;aspect-ratio:2/3;object-fit:cover;background:#1b0907;border:4px solid var(--paper);display:block}
+.posters b{display:block;margin-top:.4rem;line-height:1.25;font-size:.95rem}
+.posters small{color:var(--bulb)}
+.posters a:hover img{border-color:var(--bulb)}
 @media (prefers-reduced-motion:no-preference){.marquee{animation:glow 3s ease-in-out infinite alternate}}
 @keyframes glow{to{box-shadow:0 0 0 4px #1b0907,0 0 60px #f6b73caa,inset 0 0 30px #000}}
