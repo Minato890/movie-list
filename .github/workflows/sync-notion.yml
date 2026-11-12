@@ -31,6 +31,7 @@ jobs:
       - name: Read MyAnimeList and write data/anime.json
         run: node scripts/sync-mal.mjs
         env:
+          MAL_CLIENT_ID: ${{ secrets.MAL_CLIENT_ID }}
           ALLOW_SHRINK: ${{ inputs.allow_shrink && '1' || '' }}
         continue-on-error: true
       - name: Save changes
