@@ -1,4 +1,1475 @@
 {
   "user": "dr_jupiter",
-  "entries": []
+  "entries": [
+    {
+      "id": 57181,
+      "title": "Ao no Hako",
+      "url": "https://myanimelist.net/anime/57181",
+      "image": "https://cdn.myanimelist.net/images/anime/1341/145349l.webp",
+      "status": "Watching",
+      "score": 10,
+      "episodes": 18,
+      "total": 25
+    },
+    {
+      "id": 54865,
+      "title": "Blue Lock vs. U-20 Japan",
+      "url": "https://myanimelist.net/anime/54865",
+      "image": "https://cdn.myanimelist.net/images/anime/1584/144860l.jpg",
+      "status": "Watching",
+      "score": null,
+      "episodes": 14,
+      "total": 14
+    },
+    {
+      "id": 488,
+      "title": "Ichigo Mashimaro",
+      "url": "https://myanimelist.net/anime/488",
+      "image": "https://cdn.myanimelist.net/images/anime/10/11042l.webp",
+      "status": "Watching",
+      "score": null,
+      "episodes": 0,
+      "total": 12
+    },
+    {
+      "id": 49909,
+      "title": "Kotarou wa Hitorigurashi",
+      "url": "https://myanimelist.net/anime/49909",
+      "image": "https://cdn.myanimelist.net/images/anime/1862/121020l.webp",
+      "status": "Watching",
+      "score": null,
+      "episodes": 0,
+      "total": 10
+    },
+    {
+      "id": 19,
+      "title": "Monster",
+      "url": "https://myanimelist.net/anime/19",
+      "image": "https://cdn.myanimelist.net/images/anime/10/18793l.jpg",
+      "status": "Watching",
+      "score": null,
+      "episodes": 13,
+      "total": 74
+    },
+    {
+      "id": 21,
+      "title": "One Piece",
+      "url": "https://myanimelist.net/anime/21",
+      "image": "https://cdn.myanimelist.net/images/anime/1244/138851l.jpg",
+      "status": "Watching",
+      "score": 10,
+      "episodes": 1119,
+      "total": null
+    },
+    {
+      "id": 58567,
+      "title": "Ore dake Level Up na Ken Season 2: Arise from the Shadow",
+      "url": "https://myanimelist.net/anime/58567",
+      "image": "https://cdn.myanimelist.net/images/anime/1448/147351l.jpg",
+      "status": "Watching",
+      "score": 10,
+      "episodes": 7,
+      "total": 13
+    },
+    {
+      "id": 52034,
+      "title": "[Oshi no Ko]",
+      "url": "https://myanimelist.net/anime/52034",
+      "image": "https://cdn.myanimelist.net/images/anime/1812/134736l.jpg",
+      "status": "Completed",
+      "score": 9,
+      "episodes": 11,
+      "total": 11
+    },
+    {
+      "id": 55791,
+      "title": "[Oshi no Ko] 2nd Season",
+      "url": "https://myanimelist.net/anime/55791",
+      "image": "https://cdn.myanimelist.net/images/anime/1006/143302l.jpg",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 13,
+      "total": 13
+    },
+    {
+      "id": 31646,
+      "title": "3-gatsu no Lion",
+      "url": "https://myanimelist.net/anime/31646",
+      "image": "https://cdn.myanimelist.net/images/anime/1590/154000l.webp",
+      "status": "Completed",
+      "score": null,
+      "episodes": 22,
+      "total": 22
+    },
+    {
+      "id": 2546,
+      "title": "Alps Monogatari: Watashi no Annette",
+      "url": "https://myanimelist.net/anime/2546",
+      "image": "https://cdn.myanimelist.net/images/anime/1626/98666l.jpg",
+      "status": "Completed",
+      "score": null,
+      "episodes": 48,
+      "total": 48
+    },
+    {
+      "id": 9989,
+      "title": "Ano Hi Mita Hana no Namae wo Bokutachi wa Mada Shiranai.",
+      "url": "https://myanimelist.net/anime/9989",
+      "image": "https://cdn.myanimelist.net/images/anime/5/79697l.jpg",
+      "status": "Completed",
+      "score": 9,
+      "episodes": 11,
+      "total": 11
+    },
+    {
+      "id": 5081,
+      "title": "Bakemonogatari",
+      "url": "https://myanimelist.net/anime/5081",
+      "image": "https://cdn.myanimelist.net/images/anime/11/75274l.webp",
+      "status": "Completed",
+      "score": 10,
+      "episodes": 15,
+      "total": 15
+    },
+    {
+      "id": 56674,
+      "title": "Balala Xiao Mo Xian: Xing Yuan Die Qi 1",
+      "url": "https://myanimelist.net/anime/56674",
+      "image": "https://cdn.myanimelist.net/images/anime/1950/138554l.jpg",
+      "status": "Completed",
+      "score": null,
+      "episodes": 26,
+      "total": 26
+    },
+    {
+      "id": 22789,
+      "title": "Barakamon",
+      "url": "https://myanimelist.net/anime/22789",
+      "image": "https://cdn.myanimelist.net/images/anime/1426/111248l.jpg",
+      "status": "Completed",
+      "score": null,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 20543,
+      "title": "Bayonetta: Bloody Fate",
+      "url": "https://myanimelist.net/anime/20543",
+      "image": "https://cdn.myanimelist.net/images/anime/1243/113390l.jpg",
+      "status": "Completed",
+      "score": null,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 269,
+      "title": "Bleach",
+      "url": "https://myanimelist.net/anime/269",
+      "image": "https://cdn.myanimelist.net/images/anime/1541/147774l.jpg",
+      "status": "Completed",
+      "score": null,
+      "episodes": 366,
+      "total": 366
+    },
+    {
+      "id": 49596,
+      "title": "Blue Lock",
+      "url": "https://myanimelist.net/anime/49596",
+      "image": "https://cdn.myanimelist.net/images/anime/1258/126929l.webp",
+      "status": "Completed",
+      "score": null,
+      "episodes": 24,
+      "total": 24
+    },
+    {
+      "id": 54866,
+      "title": "Blue Lock: Episode Nagi",
+      "url": "https://myanimelist.net/anime/54866",
+      "image": "https://cdn.myanimelist.net/images/anime/1239/139928l.webp",
+      "status": "Completed",
+      "score": null,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 47917,
+      "title": "Bocchi the Rock!",
+      "url": "https://myanimelist.net/anime/47917",
+      "image": "https://cdn.myanimelist.net/images/anime/1448/127956l.jpg",
+      "status": "Completed",
+      "score": null,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 31043,
+      "title": "Boku dake ga Inai Machi",
+      "url": "https://myanimelist.net/anime/31043",
+      "image": "https://cdn.myanimelist.net/images/anime/10/77957l.jpg",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 52578,
+      "title": "Boku no Kokoro no Yabai Yatsu",
+      "url": "https://myanimelist.net/anime/52578",
+      "image": "https://cdn.myanimelist.net/images/anime/1545/133887l.jpg",
+      "status": "Completed",
+      "score": null,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 21405,
+      "title": "Bokura wa Minna Kawai-sou",
+      "url": "https://myanimelist.net/anime/21405",
+      "image": "https://cdn.myanimelist.net/images/anime/1257/145479l.webp",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 34566,
+      "title": "Boruto: Naruto Next Generations",
+      "url": "https://myanimelist.net/anime/34566",
+      "image": "https://cdn.myanimelist.net/images/anime/1091/99847l.jpg",
+      "status": "Completed",
+      "score": 6,
+      "episodes": 293,
+      "total": 293
+    },
+    {
+      "id": 55640,
+      "title": "Bousei no Volicia",
+      "url": "https://myanimelist.net/anime/55640",
+      "image": "https://cdn.myanimelist.net/images/anime/1098/136439l.jpg",
+      "status": "Completed",
+      "score": null,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 1689,
+      "title": "Byousoku 5 Centimeter",
+      "url": "https://myanimelist.net/anime/1689",
+      "image": "https://cdn.myanimelist.net/images/anime/1410/112994l.webp",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 3,
+      "total": 3
+    },
+    {
+      "id": 44511,
+      "title": "Chainsaw Man",
+      "url": "https://myanimelist.net/anime/44511",
+      "image": "https://cdn.myanimelist.net/images/anime/1806/126216l.jpg",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 38226,
+      "title": "Choukadou Girl ⅙",
+      "url": "https://myanimelist.net/anime/38226",
+      "image": "https://cdn.myanimelist.net/images/anime/1760/111609l.jpg",
+      "status": "Completed",
+      "score": null,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 2167,
+      "title": "Clannad",
+      "url": "https://myanimelist.net/anime/2167",
+      "image": "https://cdn.myanimelist.net/images/anime/1804/95033l.jpg",
+      "status": "Completed",
+      "score": 2,
+      "episodes": 23,
+      "total": 23
+    },
+    {
+      "id": 4181,
+      "title": "Clannad: After Story",
+      "url": "https://myanimelist.net/anime/4181",
+      "image": "https://cdn.myanimelist.net/images/anime/1299/110774l.jpg",
+      "status": "Completed",
+      "score": 10,
+      "episodes": 24,
+      "total": 24
+    },
+    {
+      "id": 57334,
+      "title": "Dandadan",
+      "url": "https://myanimelist.net/anime/57334",
+      "image": "https://cdn.myanimelist.net/images/anime/1584/143719l.webp",
+      "status": "Completed",
+      "score": null,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 11843,
+      "title": "Danshi Koukousei no Nichijou",
+      "url": "https://myanimelist.net/anime/11843",
+      "image": "https://cdn.myanimelist.net/images/anime/3/33257l.jpg",
+      "status": "Completed",
+      "score": 9,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 17121,
+      "title": "Dareka no Manazashi",
+      "url": "https://myanimelist.net/anime/17121",
+      "image": "https://cdn.myanimelist.net/images/anime/1268/123600l.jpg",
+      "status": "Completed",
+      "score": 9,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 35849,
+      "title": "Darling in the FranXX",
+      "url": "https://myanimelist.net/anime/35849",
+      "image": "https://cdn.myanimelist.net/images/anime/1614/90408l.webp",
+      "status": "Completed",
+      "score": 7,
+      "episodes": 24,
+      "total": 24
+    },
+    {
+      "id": 1535,
+      "title": "Death Note",
+      "url": "https://myanimelist.net/anime/1535",
+      "image": "https://cdn.myanimelist.net/images/anime/1079/138100l.webp",
+      "status": "Completed",
+      "score": 9,
+      "episodes": 37,
+      "total": 37
+    },
+    {
+      "id": 28223,
+      "title": "Death Parade",
+      "url": "https://myanimelist.net/anime/28223",
+      "image": "https://cdn.myanimelist.net/images/anime/5/71553l.jpg",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 18755,
+      "title": "Donyatsu",
+      "url": "https://myanimelist.net/anime/18755",
+      "image": "https://cdn.myanimelist.net/images/anime/9/50109l.jpg",
+      "status": "Completed",
+      "score": null,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 2393,
+      "title": "Doraemon Movie 24: Nobita to Fushigi Kaze Tsukai",
+      "url": "https://myanimelist.net/anime/2393",
+      "image": "https://cdn.myanimelist.net/images/anime/1608/133751l.webp",
+      "status": "Completed",
+      "score": null,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 7666,
+      "title": "Dr. Slump Movie 01: Arale-chan Hello! Fushigi Shima",
+      "url": "https://myanimelist.net/anime/7666",
+      "image": "https://cdn.myanimelist.net/images/anime/4/23167l.jpg",
+      "status": "Completed",
+      "score": null,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 38691,
+      "title": "Dr. Stone",
+      "url": "https://myanimelist.net/anime/38691",
+      "image": "https://cdn.myanimelist.net/images/anime/1613/102576l.jpg",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 24,
+      "total": 24
+    },
+    {
+      "id": 48549,
+      "title": "Dr. Stone: New World",
+      "url": "https://myanimelist.net/anime/48549",
+      "image": "https://cdn.myanimelist.net/images/anime/1316/136268l.jpg",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 11,
+      "total": 11
+    },
+    {
+      "id": 40852,
+      "title": "Dr. Stone: Stone Wars",
+      "url": "https://myanimelist.net/anime/40852",
+      "image": "https://cdn.myanimelist.net/images/anime/1711/110614l.webp",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 11,
+      "total": 11
+    },
+    {
+      "id": 39026,
+      "title": "Dumbbell Nan Kilo Moteru?",
+      "url": "https://myanimelist.net/anime/39026",
+      "image": "https://cdn.myanimelist.net/images/anime/1385/101060l.jpg",
+      "status": "Completed",
+      "score": 6,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 38680,
+      "title": "Fruits Basket 1st Season",
+      "url": "https://myanimelist.net/anime/38680",
+      "image": "https://cdn.myanimelist.net/images/anime/1447/99827l.webp",
+      "status": "Completed",
+      "score": null,
+      "episodes": 25,
+      "total": 25
+    },
+    {
+      "id": 5114,
+      "title": "Fullmetal Alchemist: Brotherhood",
+      "url": "https://myanimelist.net/anime/5114",
+      "image": "https://cdn.myanimelist.net/images/anime/1208/94745l.jpg",
+      "status": "Completed",
+      "score": 9,
+      "episodes": 64,
+      "total": 64
+    },
+    {
+      "id": 37105,
+      "title": "Grand Blue",
+      "url": "https://myanimelist.net/anime/37105",
+      "image": "https://cdn.myanimelist.net/images/anime/1302/94882l.jpg",
+      "status": "Completed",
+      "score": 9,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 20583,
+      "title": "Haikyuu!!",
+      "url": "https://myanimelist.net/anime/20583",
+      "image": "https://cdn.myanimelist.net/images/anime/7/76014l.webp",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 25,
+      "total": 25
+    },
+    {
+      "id": 32935,
+      "title": "Haikyuu!! Karasuno Koukou vs. Shiratorizawa Gakuen Koukou",
+      "url": "https://myanimelist.net/anime/32935",
+      "image": "https://cdn.myanimelist.net/images/anime/7/81992l.jpg",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 10,
+      "total": 10
+    },
+    {
+      "id": 52742,
+      "title": "Haikyuu!! Movie: Gomisuteba no Kessen",
+      "url": "https://myanimelist.net/anime/52742",
+      "image": "https://cdn.myanimelist.net/images/anime/1665/140360l.webp",
+      "status": "Completed",
+      "score": null,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 40262,
+      "title": "Haikyuu!! Riku vs. Kuu",
+      "url": "https://myanimelist.net/anime/40262",
+      "image": "https://cdn.myanimelist.net/images/anime/1527/102671l.jpg",
+      "status": "Completed",
+      "score": 9,
+      "episodes": 2,
+      "total": 2
+    },
+    {
+      "id": 28891,
+      "title": "Haikyuu!! Second Season",
+      "url": "https://myanimelist.net/anime/28891",
+      "image": "https://cdn.myanimelist.net/images/anime/9/76662l.jpg",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 25,
+      "total": 25
+    },
+    {
+      "id": 38883,
+      "title": "Haikyuu!! To the Top",
+      "url": "https://myanimelist.net/anime/38883",
+      "image": "https://cdn.myanimelist.net/images/anime/1813/105367l.jpg",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 13,
+      "total": 13
+    },
+    {
+      "id": 40776,
+      "title": "Haikyuu!! To the Top Part 2",
+      "url": "https://myanimelist.net/anime/40776",
+      "image": "https://cdn.myanimelist.net/images/anime/1453/106768l.jpg",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 21855,
+      "title": "Hanamonogatari",
+      "url": "https://myanimelist.net/anime/21855",
+      "image": "https://cdn.myanimelist.net/images/anime/13/65755l.jpg",
+      "status": "Completed",
+      "score": null,
+      "episodes": 5,
+      "total": 5
+    },
+    {
+      "id": 49154,
+      "title": "High Card",
+      "url": "https://myanimelist.net/anime/49154",
+      "image": "https://cdn.myanimelist.net/images/anime/1803/131345l.jpg",
+      "status": "Completed",
+      "score": null,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 42897,
+      "title": "Horimiya",
+      "url": "https://myanimelist.net/anime/42897",
+      "image": "https://cdn.myanimelist.net/images/anime/1695/111486l.webp",
+      "status": "Completed",
+      "score": 7,
+      "episodes": 13,
+      "total": 13
+    },
+    {
+      "id": 54856,
+      "title": "Horimiya: Piece",
+      "url": "https://myanimelist.net/anime/54856",
+      "image": "https://cdn.myanimelist.net/images/anime/1007/136277l.webp",
+      "status": "Completed",
+      "score": null,
+      "episodes": 13,
+      "total": 13
+    },
+    {
+      "id": 578,
+      "title": "Hotaru no Haka",
+      "url": "https://myanimelist.net/anime/578",
+      "image": "https://cdn.myanimelist.net/images/anime/1485/141208l.webp",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 58919,
+      "title": "Hyakuemu.",
+      "url": "https://myanimelist.net/anime/58919",
+      "image": "https://cdn.myanimelist.net/images/anime/1259/151080l.webp",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 1316,
+      "title": "Idaten Jump",
+      "url": "https://myanimelist.net/anime/1316",
+      "image": "https://cdn.myanimelist.net/images/anime/1691/133569l.webp",
+      "status": "Completed",
+      "score": 6,
+      "episodes": 52,
+      "total": 52
+    },
+    {
+      "id": 46569,
+      "title": "Jigokuraku",
+      "url": "https://myanimelist.net/anime/46569",
+      "image": "https://cdn.myanimelist.net/images/anime/1075/131925l.jpg",
+      "status": "Completed",
+      "score": null,
+      "episodes": 13,
+      "total": 13
+    },
+    {
+      "id": 14719,
+      "title": "JoJo no Kimyou na Bouken (TV)",
+      "url": "https://myanimelist.net/anime/14719",
+      "image": "https://cdn.myanimelist.net/images/anime/3/40409l.webp",
+      "status": "Completed",
+      "score": null,
+      "episodes": 26,
+      "total": 26
+    },
+    {
+      "id": 40748,
+      "title": "Jujutsu Kaisen",
+      "url": "https://myanimelist.net/anime/40748",
+      "image": "https://cdn.myanimelist.net/images/anime/1171/109222l.jpg",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 24,
+      "total": 24
+    },
+    {
+      "id": 48561,
+      "title": "Jujutsu Kaisen 0 Movie",
+      "url": "https://myanimelist.net/anime/48561",
+      "image": "https://cdn.myanimelist.net/images/anime/1121/119044l.webp",
+      "status": "Completed",
+      "score": 7,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 51009,
+      "title": "Jujutsu Kaisen 2nd Season",
+      "url": "https://myanimelist.net/anime/51009",
+      "image": "https://cdn.myanimelist.net/images/anime/1792/138022l.webp",
+      "status": "Completed",
+      "score": null,
+      "episodes": 23,
+      "total": 23
+    },
+    {
+      "id": 37999,
+      "title": "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen",
+      "url": "https://myanimelist.net/anime/37999",
+      "image": "https://cdn.myanimelist.net/images/anime/1295/106551l.jpg",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 43608,
+      "title": "Kaguya-sama wa Kokurasetai: Ultra Romantic",
+      "url": "https://myanimelist.net/anime/43608",
+      "image": "https://cdn.myanimelist.net/images/anime/1160/122627l.jpg",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 13,
+      "total": 13
+    },
+    {
+      "id": 40591,
+      "title": "Kaguya-sama wa Kokurasetai? Tensai-tachi no Renai Zunousen",
+      "url": "https://myanimelist.net/anime/40591",
+      "image": "https://cdn.myanimelist.net/images/anime/1764/106659l.jpg",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 38000,
+      "title": "Kimetsu no Yaiba",
+      "url": "https://myanimelist.net/anime/38000",
+      "image": "https://cdn.myanimelist.net/images/anime/1286/99889l.jpg",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 26,
+      "total": 26
+    },
+    {
+      "id": 51019,
+      "title": "Kimetsu no Yaiba: Katanakaji no Sato-hen",
+      "url": "https://myanimelist.net/anime/51019",
+      "image": "https://cdn.myanimelist.net/images/anime/1765/135099l.webp",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 11,
+      "total": 11
+    },
+    {
+      "id": 49926,
+      "title": "Kimetsu no Yaiba: Mugen Ressha-hen",
+      "url": "https://myanimelist.net/anime/49926",
+      "image": "https://cdn.myanimelist.net/images/anime/1065/118763l.webp",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 7,
+      "total": 7
+    },
+    {
+      "id": 47778,
+      "title": "Kimetsu no Yaiba: Yuukaku-hen",
+      "url": "https://myanimelist.net/anime/47778",
+      "image": "https://cdn.myanimelist.net/images/anime/1908/120036l.webp",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 11,
+      "total": 11
+    },
+    {
+      "id": 32281,
+      "title": "Kimi no Na wa.",
+      "url": "https://myanimelist.net/anime/32281",
+      "image": "https://cdn.myanimelist.net/images/anime/5/87048l.webp",
+      "status": "Completed",
+      "score": 10,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 36098,
+      "title": "Kimi no Suizou wo Tabetai",
+      "url": "https://myanimelist.net/anime/36098",
+      "image": "https://cdn.myanimelist.net/images/anime/1768/93291l.webp",
+      "status": "Completed",
+      "score": 9,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 36699,
+      "title": "Kimitachi wa Dou Ikiru ka",
+      "url": "https://myanimelist.net/anime/36699",
+      "image": "https://cdn.myanimelist.net/images/anime/1126/139654l.jpg",
+      "status": "Completed",
+      "score": null,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 22535,
+      "title": "Kiseijuu: Sei no Kakuritsu",
+      "url": "https://myanimelist.net/anime/22535",
+      "image": "https://cdn.myanimelist.net/images/anime/3/73178l.webp",
+      "status": "Completed",
+      "score": null,
+      "episodes": 24,
+      "total": 24
+    },
+    {
+      "id": 7593,
+      "title": "Kiss x Sis (TV)",
+      "url": "https://myanimelist.net/anime/7593",
+      "image": "https://cdn.myanimelist.net/images/anime/1660/121553l.jpg",
+      "status": "Completed",
+      "score": 7,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 9260,
+      "title": "Kizumonogatari I: Tekketsu-hen",
+      "url": "https://myanimelist.net/anime/9260",
+      "image": "https://cdn.myanimelist.net/images/anime/1783/112810l.webp",
+      "status": "Completed",
+      "score": null,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 31757,
+      "title": "Kizumonogatari II: Nekketsu-hen",
+      "url": "https://myanimelist.net/anime/31757",
+      "image": "https://cdn.myanimelist.net/images/anime/1981/112812l.jpg",
+      "status": "Completed",
+      "score": null,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 31758,
+      "title": "Kizumonogatari III: Reiketsu-hen",
+      "url": "https://myanimelist.net/anime/31758",
+      "image": "https://cdn.myanimelist.net/images/anime/1084/112813l.webp",
+      "status": "Completed",
+      "score": null,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 56609,
+      "title": "Kizumonogatari: Koyomi Vamp",
+      "url": "https://myanimelist.net/anime/56609",
+      "image": "https://cdn.myanimelist.net/images/anime/1279/140233l.jpg",
+      "status": "Completed",
+      "score": 6,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 28851,
+      "title": "Koe no Katachi",
+      "url": "https://myanimelist.net/anime/28851",
+      "image": "https://cdn.myanimelist.net/images/anime/1122/96435l.jpg",
+      "status": "Completed",
+      "score": 7,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 16782,
+      "title": "Kotonoha no Niwa",
+      "url": "https://myanimelist.net/anime/16782",
+      "image": "https://cdn.myanimelist.net/images/anime/1597/112995l.webp",
+      "status": "Completed",
+      "score": 9,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 20785,
+      "title": "Mahouka Koukou no Rettousei",
+      "url": "https://myanimelist.net/anime/20785",
+      "image": "https://cdn.myanimelist.net/images/anime/11/61039l.jpg",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 26,
+      "total": 26
+    },
+    {
+      "id": 32182,
+      "title": "Mob Psycho 100",
+      "url": "https://myanimelist.net/anime/32182",
+      "image": "https://cdn.myanimelist.net/images/anime/8/80356l.jpg",
+      "status": "Completed",
+      "score": 7,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 17074,
+      "title": "Monogatari Series: Second Season",
+      "url": "https://myanimelist.net/anime/17074",
+      "image": "https://cdn.myanimelist.net/images/anime/1807/121534l.jpg",
+      "status": "Completed",
+      "score": null,
+      "episodes": 26,
+      "total": 26
+    },
+    {
+      "id": 41168,
+      "title": "Nakitai Watashi wa Neko wo Kaburu",
+      "url": "https://myanimelist.net/anime/41168",
+      "image": "https://cdn.myanimelist.net/images/anime/1045/106389l.jpg",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 23755,
+      "title": "Nanatsu no Taizai",
+      "url": "https://myanimelist.net/anime/23755",
+      "image": "https://cdn.myanimelist.net/images/anime/8/65409l.webp",
+      "status": "Completed",
+      "score": null,
+      "episodes": 24,
+      "total": 24
+    },
+    {
+      "id": 20,
+      "title": "Naruto",
+      "url": "https://myanimelist.net/anime/20",
+      "image": "https://cdn.myanimelist.net/images/anime/1141/142503l.jpg",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 220,
+      "total": 220
+    },
+    {
+      "id": 1735,
+      "title": "Naruto: Shippuuden",
+      "url": "https://myanimelist.net/anime/1735",
+      "image": "https://cdn.myanimelist.net/images/anime/1565/111305l.webp",
+      "status": "Completed",
+      "score": 10,
+      "episodes": 500,
+      "total": 500
+    },
+    {
+      "id": 2472,
+      "title": "Naruto: Shippuuden Movie 1",
+      "url": "https://myanimelist.net/anime/2472",
+      "image": "https://cdn.myanimelist.net/images/anime/1703/134493l.webp",
+      "status": "Completed",
+      "score": 7,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 4437,
+      "title": "Naruto: Shippuuden Movie 2 - Kizuna",
+      "url": "https://myanimelist.net/anime/4437",
+      "image": "https://cdn.myanimelist.net/images/anime/1484/134494l.jpg",
+      "status": "Completed",
+      "score": 7,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 8246,
+      "title": "Naruto: Shippuuden Movie 4 - The Lost Tower",
+      "url": "https://myanimelist.net/anime/8246",
+      "image": "https://cdn.myanimelist.net/images/anime/1479/116734l.jpg",
+      "status": "Completed",
+      "score": 7,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 10589,
+      "title": "Naruto: Shippuuden Movie 5 - Blood Prison",
+      "url": "https://myanimelist.net/anime/10589",
+      "image": "https://cdn.myanimelist.net/images/anime/1500/134496l.webp",
+      "status": "Completed",
+      "score": 7,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 13667,
+      "title": "Naruto: Shippuuden Movie 6 - Road to Ninja",
+      "url": "https://myanimelist.net/anime/13667",
+      "image": "https://cdn.myanimelist.net/images/anime/1620/94336l.jpg",
+      "status": "Completed",
+      "score": 7,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 15689,
+      "title": "Nekomonogatari: Kuro",
+      "url": "https://myanimelist.net/anime/15689",
+      "image": "https://cdn.myanimelist.net/images/anime/1170/121597l.jpg",
+      "status": "Completed",
+      "score": null,
+      "episodes": 4,
+      "total": 4
+    },
+    {
+      "id": 11597,
+      "title": "Nisemonogatari",
+      "url": "https://myanimelist.net/anime/11597",
+      "image": "https://cdn.myanimelist.net/images/anime/1044/103654l.jpg",
+      "status": "Completed",
+      "score": null,
+      "episodes": 11,
+      "total": 11
+    },
+    {
+      "id": 19815,
+      "title": "No Game No Life",
+      "url": "https://myanimelist.net/anime/19815",
+      "image": "https://cdn.myanimelist.net/images/anime/1074/111944l.jpg",
+      "status": "Completed",
+      "score": 7,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 52299,
+      "title": "Ore dake Level Up na Ken",
+      "url": "https://myanimelist.net/anime/52299",
+      "image": "https://cdn.myanimelist.net/images/anime/1801/142390l.jpg",
+      "status": "Completed",
+      "score": null,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 853,
+      "title": "Ouran Koukou Host Club",
+      "url": "https://myanimelist.net/anime/853",
+      "image": "https://cdn.myanimelist.net/images/anime/2/71992l.jpg",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 26,
+      "total": 26
+    },
+    {
+      "id": 40746,
+      "title": "Overflow",
+      "url": "https://myanimelist.net/anime/40746",
+      "image": "https://cdn.myanimelist.net/images/anime/1781/104461l.webp",
+      "status": "Completed",
+      "score": null,
+      "episodes": 8,
+      "total": 8
+    },
+    {
+      "id": 29803,
+      "title": "Overlord",
+      "url": "https://myanimelist.net/anime/29803",
+      "image": "https://cdn.myanimelist.net/images/anime/1945/136600l.webp",
+      "status": "Completed",
+      "score": 6,
+      "episodes": 13,
+      "total": 13
+    },
+    {
+      "id": 42364,
+      "title": "Re:Zero kara Hajimeru Break Time 2nd Season",
+      "url": "https://myanimelist.net/anime/42364",
+      "image": "https://cdn.myanimelist.net/images/anime/1586/108326l.jpg",
+      "status": "Completed",
+      "score": 7,
+      "episodes": 25,
+      "total": 25
+    },
+    {
+      "id": 31240,
+      "title": "Re:Zero kara Hajimeru Isekai Seikatsu",
+      "url": "https://myanimelist.net/anime/31240",
+      "image": "https://cdn.myanimelist.net/images/anime/1522/128039l.jpg",
+      "status": "Completed",
+      "score": 7,
+      "episodes": 25,
+      "total": 25
+    },
+    {
+      "id": 33255,
+      "title": "Saiki Kusuo no Ψ-nan",
+      "url": "https://myanimelist.net/anime/33255",
+      "image": "https://cdn.myanimelist.net/images/anime/1973/142750l.jpg",
+      "status": "Completed",
+      "score": 9,
+      "episodes": 120,
+      "total": 120
+    },
+    {
+      "id": 37450,
+      "title": "Seishun Buta Yarou wa Bunny Girl Senpai no Yume wo Minai",
+      "url": "https://myanimelist.net/anime/37450",
+      "image": "https://cdn.myanimelist.net/images/anime/1301/93586l.jpg",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 13,
+      "total": 13
+    },
+    {
+      "id": 38329,
+      "title": "Seishun Buta Yarou wa Yumemiru Shoujo no Yume wo Minai",
+      "url": "https://myanimelist.net/anime/38329",
+      "image": "https://cdn.myanimelist.net/images/anime/1613/102179l.jpg",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 8675,
+      "title": "Seitokai Yakuindomo",
+      "url": "https://myanimelist.net/anime/8675",
+      "image": "https://cdn.myanimelist.net/images/anime/4/75550l.webp",
+      "status": "Completed",
+      "score": 7,
+      "episodes": 13,
+      "total": 13
+    },
+    {
+      "id": 199,
+      "title": "Sen to Chihiro no Kamikakushi",
+      "url": "https://myanimelist.net/anime/199",
+      "image": "https://cdn.myanimelist.net/images/anime/6/79597l.jpg",
+      "status": "Completed",
+      "score": 7,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 23273,
+      "title": "Shigatsu wa Kimi no Uso",
+      "url": "https://myanimelist.net/anime/23273",
+      "image": "https://cdn.myanimelist.net/images/anime/1405/143284l.jpg",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 22,
+      "total": 22
+    },
+    {
+      "id": 16498,
+      "title": "Shingeki no Kyojin",
+      "url": "https://myanimelist.net/anime/16498",
+      "image": "https://cdn.myanimelist.net/images/anime/10/47347l.jpg",
+      "status": "Completed",
+      "score": 9,
+      "episodes": 25,
+      "total": 25
+    },
+    {
+      "id": 25777,
+      "title": "Shingeki no Kyojin Season 2",
+      "url": "https://myanimelist.net/anime/25777",
+      "image": "https://cdn.myanimelist.net/images/anime/4/84177l.webp",
+      "status": "Completed",
+      "score": 9,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 35760,
+      "title": "Shingeki no Kyojin Season 3",
+      "url": "https://myanimelist.net/anime/35760",
+      "image": "https://cdn.myanimelist.net/images/anime/1173/92110l.jpg",
+      "status": "Completed",
+      "score": 9,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 38524,
+      "title": "Shingeki no Kyojin Season 3 Part 2",
+      "url": "https://myanimelist.net/anime/38524",
+      "image": "https://cdn.myanimelist.net/images/anime/1517/100633l.jpg",
+      "status": "Completed",
+      "score": 9,
+      "episodes": 10,
+      "total": 10
+    },
+    {
+      "id": 39477,
+      "title": "Shingeki no Kyojin Season 3 Specials",
+      "url": "https://myanimelist.net/anime/39477",
+      "image": "https://cdn.myanimelist.net/images/anime/1909/99638l.jpg",
+      "status": "Completed",
+      "score": null,
+      "episodes": 7,
+      "total": 7
+    },
+    {
+      "id": 51535,
+      "title": "Shingeki no Kyojin: The Final Season - Kanketsu-hen",
+      "url": "https://myanimelist.net/anime/51535",
+      "image": "https://cdn.myanimelist.net/images/anime/1279/131078l.jpg",
+      "status": "Completed",
+      "score": 9,
+      "episodes": 2,
+      "total": 2
+    },
+    {
+      "id": 48583,
+      "title": "Shingeki no Kyojin: The Final Season Part 2",
+      "url": "https://myanimelist.net/anime/48583",
+      "image": "https://cdn.myanimelist.net/images/anime/1948/120625l.jpg",
+      "status": "Completed",
+      "score": 9,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 48736,
+      "title": "Sono Bisque Doll wa Koi wo Suru",
+      "url": "https://myanimelist.net/anime/48736",
+      "image": "https://cdn.myanimelist.net/images/anime/1179/119897l.jpg",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 35839,
+      "title": "Sora yori mo Tooi Basho",
+      "url": "https://myanimelist.net/anime/35839",
+      "image": "https://cdn.myanimelist.net/images/anime/6/89879l.jpg",
+      "status": "Completed",
+      "score": null,
+      "episodes": 13,
+      "total": 13
+    },
+    {
+      "id": 52991,
+      "title": "Sousou no Frieren",
+      "url": "https://myanimelist.net/anime/52991",
+      "image": "https://cdn.myanimelist.net/images/anime/1015/138006l.jpg",
+      "status": "Completed",
+      "score": 9,
+      "episodes": 28,
+      "total": 28
+    },
+    {
+      "id": 50265,
+      "title": "Spy x Family",
+      "url": "https://myanimelist.net/anime/50265",
+      "image": "https://cdn.myanimelist.net/images/anime/1441/122795l.jpg",
+      "status": "Completed",
+      "score": 7,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 50602,
+      "title": "Spy x Family Part 2",
+      "url": "https://myanimelist.net/anime/50602",
+      "image": "https://cdn.myanimelist.net/images/anime/1111/127508l.jpg",
+      "status": "Completed",
+      "score": 7,
+      "episodes": 13,
+      "total": 13
+    },
+    {
+      "id": 9253,
+      "title": "Steins;Gate",
+      "url": "https://myanimelist.net/anime/9253",
+      "image": "https://cdn.myanimelist.net/images/anime/1935/127974l.jpg",
+      "status": "Completed",
+      "score": 9,
+      "episodes": 24,
+      "total": 24
+    },
+    {
+      "id": 50594,
+      "title": "Suzume no Tojimari",
+      "url": "https://myanimelist.net/anime/50594",
+      "image": "https://cdn.myanimelist.net/images/anime/1598/128450l.jpg",
+      "status": "Completed",
+      "score": 9,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 53393,
+      "title": "Tengoku Daimakyou",
+      "url": "https://myanimelist.net/anime/53393",
+      "image": "https://cdn.myanimelist.net/images/anime/1121/133132l.webp",
+      "status": "Completed",
+      "score": 6,
+      "episodes": 13,
+      "total": 13
+    },
+    {
+      "id": 38826,
+      "title": "Tenki no Ko",
+      "url": "https://myanimelist.net/anime/38826",
+      "image": "https://cdn.myanimelist.net/images/anime/1880/101146l.jpg",
+      "status": "Completed",
+      "score": 9,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 16870,
+      "title": "The Last: Naruto the Movie",
+      "url": "https://myanimelist.net/anime/16870",
+      "image": "https://cdn.myanimelist.net/images/anime/1491/134498l.jpg",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 1,
+      "total": 1
+    },
+    {
+      "id": 42249,
+      "title": "Tokyo Revengers",
+      "url": "https://myanimelist.net/anime/42249",
+      "image": "https://cdn.myanimelist.net/images/anime/1839/122012l.webp",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 24,
+      "total": 24
+    },
+    {
+      "id": 28025,
+      "title": "Tsukimonogatari",
+      "url": "https://myanimelist.net/anime/28025",
+      "image": "https://cdn.myanimelist.net/images/anime/6/68259l.webp",
+      "status": "Completed",
+      "score": null,
+      "episodes": 4,
+      "total": 4
+    },
+    {
+      "id": 37521,
+      "title": "Vinland Saga",
+      "url": "https://myanimelist.net/anime/37521",
+      "image": "https://cdn.myanimelist.net/images/anime/1500/103005l.jpg",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 24,
+      "total": 24
+    },
+    {
+      "id": 49387,
+      "title": "Vinland Saga Season 2",
+      "url": "https://myanimelist.net/anime/49387",
+      "image": "https://cdn.myanimelist.net/images/anime/1170/124312l.webp",
+      "status": "Completed",
+      "score": null,
+      "episodes": 24,
+      "total": 24
+    },
+    {
+      "id": 33352,
+      "title": "Violet Evergarden",
+      "url": "https://myanimelist.net/anime/33352",
+      "image": "https://cdn.myanimelist.net/images/anime/1795/95088l.webp",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 13,
+      "total": 13
+    },
+    {
+      "id": 46095,
+      "title": "Vivy: Fluorite Eye's Song",
+      "url": "https://myanimelist.net/anime/46095",
+      "image": "https://cdn.myanimelist.net/images/anime/1551/128960l.webp",
+      "status": "Completed",
+      "score": null,
+      "episodes": 13,
+      "total": 13
+    },
+    {
+      "id": 37779,
+      "title": "Yakusoku no Neverland",
+      "url": "https://myanimelist.net/anime/37779",
+      "image": "https://cdn.myanimelist.net/images/anime/1830/118780l.jpg",
+      "status": "Completed",
+      "score": 7,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 39617,
+      "title": "Yakusoku no Neverland 2nd Season",
+      "url": "https://myanimelist.net/anime/39617",
+      "image": "https://cdn.myanimelist.net/images/anime/1815/110626l.webp",
+      "status": "Completed",
+      "score": 5,
+      "episodes": 11,
+      "total": 11
+    },
+    {
+      "id": 53126,
+      "title": "Yamada-kun to Lv999 no Koi wo Suru",
+      "url": "https://myanimelist.net/anime/53126",
+      "image": "https://cdn.myanimelist.net/images/anime/1298/134178l.jpg",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 13,
+      "total": 13
+    },
+    {
+      "id": 35507,
+      "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e",
+      "url": "https://myanimelist.net/anime/35507",
+      "image": "https://cdn.myanimelist.net/images/anime/5/86830l.webp",
+      "status": "Completed",
+      "score": 8,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 51096,
+      "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 2nd Season",
+      "url": "https://myanimelist.net/anime/51096",
+      "image": "https://cdn.myanimelist.net/images/anime/1010/124180l.jpg",
+      "status": "Completed",
+      "score": 9,
+      "episodes": 13,
+      "total": 13
+    },
+    {
+      "id": 51180,
+      "title": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e 3rd Season",
+      "url": "https://myanimelist.net/anime/51180",
+      "image": "https://cdn.myanimelist.net/images/anime/1332/139318l.jpg",
+      "status": "Completed",
+      "score": 9,
+      "episodes": 13,
+      "total": 13
+    },
+    {
+      "id": 23283,
+      "title": "Zankyou no Terror",
+      "url": "https://myanimelist.net/anime/23283",
+      "image": "https://cdn.myanimelist.net/images/anime/1417/117422l.jpg",
+      "status": "Completed",
+      "score": null,
+      "episodes": 11,
+      "total": 11
+    },
+    {
+      "id": 54112,
+      "title": "Zom 100: Zombie ni Naru made ni Shitai 100 no Koto",
+      "url": "https://myanimelist.net/anime/54112",
+      "image": "https://cdn.myanimelist.net/images/anime/1384/136408l.webp",
+      "status": "Completed",
+      "score": null,
+      "episodes": 12,
+      "total": 12
+    },
+    {
+      "id": 11617,
+      "title": "High School DxD",
+      "url": "https://myanimelist.net/anime/11617",
+      "image": "https://cdn.myanimelist.net/images/anime/1331/111940l.jpg",
+      "status": "Dropped",
+      "score": 7,
+      "episodes": 8,
+      "total": 12
+    },
+    {
+      "id": 47194,
+      "title": "Summertime Render",
+      "url": "https://myanimelist.net/anime/47194",
+      "image": "https://cdn.myanimelist.net/images/anime/1120/120796l.webp",
+      "status": "Dropped",
+      "score": 5,
+      "episodes": 6,
+      "total": 25
+    },
+    {
+      "id": 50608,
+      "title": "Tokyo Revengers: Seiya Kessen-hen",
+      "url": "https://myanimelist.net/anime/50608",
+      "image": "https://cdn.myanimelist.net/images/anime/1773/132313l.jpg",
+      "status": "Dropped",
+      "score": 5,
+      "episodes": 10,
+      "total": 13
+    },
+    {
+      "id": 12355,
+      "title": "Ookami Kodomo no Ame to Yuki",
+      "url": "https://myanimelist.net/anime/12355",
+      "image": "https://cdn.myanimelist.net/images/anime/9/35721l.webp",
+      "status": "Plan to watch",
+      "score": null,
+      "episodes": 0,
+      "total": 1
+    },
+    {
+      "id": 437,
+      "title": "Perfect Blue",
+      "url": "https://myanimelist.net/anime/437",
+      "image": "https://cdn.myanimelist.net/images/anime/1254/134212l.jpg",
+      "status": "Plan to watch",
+      "score": null,
+      "episodes": 0,
+      "total": 1
+    },
+    {
+      "id": 48171,
+      "title": "Summer Ghost",
+      "url": "https://myanimelist.net/anime/48171",
+      "image": "https://cdn.myanimelist.net/images/anime/1651/117943l.webp",
+      "status": "Plan to watch",
+      "score": null,
+      "episodes": 0,
+      "total": 1
+    }
+  ]
 }
