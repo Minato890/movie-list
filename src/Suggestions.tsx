@@ -35,7 +35,7 @@ export default function Suggestions() {
   const shown = (items ?? []).filter((s) => tab === 'All' || s.kind === tab);
 
   return (
-    <main>
+    <div className="suggest">
       <section>
         <h2>Suggestions</h2>
         <p className="lead">Something I should watch, listen to or read? Leave it here.</p>
@@ -77,6 +77,6 @@ export default function Suggestions() {
           ))}
         </ul>
       </section>
-    </main>
+    </div>
   );
 }

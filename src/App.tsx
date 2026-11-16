@@ -4,6 +4,8 @@ import musicRaw from '../data/music.json';
 import animeRaw from '../data/anime.json';
 import type { AnimeEntry, Data, Music, Pick, Title } from './types';
 import { PLAYLISTS, SPOTIFY_PROFILE } from './config';
+import Suggestions from './Suggestions';
+import './suggestions.css';
 
 const D = raw as Data;
 const M = musicRaw as Music;
@@ -13,7 +15,7 @@ const QUOTES = [{ text: 'A film is — or should be — more like music than lik
 const STATUSES = ['Watched', 'Watching', 'Up next', 'Dropped'];
 const KINDS = ['All', 'Film', 'Series', 'Anime', 'Doc'];
 const ASTATUS = ['Watching', 'Completed', 'On hold', 'Dropped', 'Plan to watch'];
-const TABS = [['top', 'Top 12'], ['collections', 'Collections'], ['library', 'Library'], ['anime', 'Anime'], ['music', 'Music']] as const;
+const TABS = [['library', 'Library'], ['suggestions', 'Suggestions'], ['anime', 'My Anime List'], ['music', 'Music']] as const;
 type Tab = (typeof TABS)[number][0];
 const POSTER = 'https://image.tmdb.org/t/p/w185';
 
@@ -56,7 +58,7 @@ function PickCard({ p, n, round }: { p: Pick; n: number; round?: boolean }) {
 }
 
 export default function App() {
-  const [tab, setTab] = useState<Tab>('top');
+  const [tab, setTab] = useState<Tab>('library');
   const [q, setQ] = useState('');
   const [status, setStatus] = useState('Watched');
   const [kind, setKind] = useState('All');
@@ -74,6 +76,7 @@ export default function App() {
   const animeCount = (st: string) => A.filter((a) => a.status === st).length;
   const embeds = PLAYLISTS.map(playlistId).filter((id): id is string => !!id);
   const nothing = <p className="empty">Nothing matches that.</p>;
+  const searchable = tab === 'library' || tab === 'anime';
 
   return (
     <>
@@ -86,54 +89,55 @@ export default function App() {
         <nav className="tabs" aria-label="Sections">
           {TABS.map(([id, label]) => <button key={id} aria-pressed={tab === id} onClick={() => setTab(id)}>{label}</button>)}
         </nav>
-        {tab !== 'music' && (
+        {searchable && (
           <input type="search" value={q} onChange={(e) => setQ(e.target.value)} placeholder="Search a title, year, kind or list" aria-label="Search" />
         )}
       </div>
 
       <main>
-        {D.titles.length === 0 && tab !== 'music' && tab !== 'anime' && <p className="empty">No data yet. Run “Sync from Notion” in the repo’s Actions tab.</p>}
-
-        {tab === 'top' && (
-          <section>
-            <h2>Top twelve</h2>
-            <ol className="grid">{top.map((t) => <Ticket key={t.title + t.year} t={t} n={t.rank ?? undefined} />)}</ol>
-            {D.top.length > 0 && top.length === 0 && nothing}
-          </section>
-        )}
-
-        {tab === 'collections' && (
-          <section>
-            {!s && active && (
-              <>
-                <div className="chips" role="group" aria-label="Collections">
-                  {D.lists.map((l) => (
-                    <button key={l.name} aria-pressed={active.name === l.name} onClick={() => setPick(l.name)}>{l.name} {l.items.length}</button>
-                  ))}
-                </div>
-                <h2>{active.name}</h2>
-                <ul className="grid">{active.items.map((t) => <Ticket key={t.title + t.year} t={t} />)}</ul>
-              </>
-            )}
-            {s && found.map((l) => (
-              <div key={l.name}><h2>{l.name}</h2><ul className="grid">{l.items.map((t) => <Ticket key={t.title + t.year} t={t} />)}</ul></div>
-            ))}
-            {s && found.length === 0 && nothing}
-          </section>
-        )}
+        {D.titles.length === 0 && tab === 'library' && <p className="empty">No data yet. Run “Sync from Notion” in the repo’s Actions tab.</p>}
 
         {tab === 'library' && (
-          <section>
-            <h2>The library</h2>
-            <div className="chips" role="group" aria-label="Filter">
-              {STATUSES.map((st) => <button key={st} aria-pressed={!s && status === st} onClick={() => { setStatus(st); setQ(''); }}>{st} {count(st)}</button>)}
-              <span className="gap" />
-              {KINDS.map((k) => <button key={k} aria-pressed={kind === k} onClick={() => setKind(k)}>{k}</button>)}
-            </div>
-            <ul className="grid small">{library.map((t) => <Ticket key={t.title + t.year} t={t} />)}</ul>
-            {D.titles.length > 0 && library.length === 0 && nothing}
-          </section>
+          <>
+            <section>
+              <h2>Top twelve</h2>
+              <ol className="grid">{top.map((t) => <Ticket key={t.title + t.year} t={t} n={t.rank ?? undefined} />)}</ol>
+              {D.top.length > 0 && top.length === 0 && nothing}
+            </section>
+
+            <section>
+              {!s && active && (
+                <>
+                  <h2>Collections</h2>
+                  <div className="chips" role="group" aria-label="Collections">
+                    {D.lists.map((l) => (
+                      <button key={l.name} aria-pressed={active.name === l.name} onClick={() => setPick(l.name)}>{l.name} {l.items.length}</button>
+                    ))}
+                  </div>
+                  <h3>{active.name}</h3>
+                  <ul className="grid">{active.items.map((t) => <Ticket key={t.title + t.year} t={t} />)}</ul>
+                </>
+              )}
+              {s && found.map((l) => (
+                <div key={l.name}><h3>{l.name}</h3><ul className="grid">{l.items.map((t) => <Ticket key={t.title + t.year} t={t} />)}</ul></div>
+              ))}
+              {s && found.length === 0 && nothing}
+            </section>
+
+            <section>
+              <h2>The library</h2>
+              <div className="chips" role="group" aria-label="Filter">
+                {STATUSES.map((st) => <button key={st} aria-pressed={!s && status === st} onClick={() => { setStatus(st); setQ(''); }}>{st} {count(st)}</button>)}
+                <span className="gap" />
+                {KINDS.map((k) => <button key={k} aria-pressed={kind === k} onClick={() => setKind(k)}>{k}</button>)}
+              </div>
+              <ul className="grid small">{library.map((t) => <Ticket key={t.title + t.year} t={t} />)}</ul>
+              {D.titles.length > 0 && library.length === 0 && nothing}
+            </section>
+          </>
         )}
+
+        {tab === 'suggestions' && <Suggestions />}
 
         {tab === 'anime' && (
           <section>
