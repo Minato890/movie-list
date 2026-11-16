@@ -1,0 +1,29 @@
+/* Styles for the Suggestions tab only. Scoped under .suggest so they cannot clash with styles.css. */
+.suggest .lead{max-width:46ch;margin:0 0 1rem}
+.suggest .cta{font:inherit;font-weight:700;color:var(--ink);background:var(--bulb);border:0;border-radius:4px;padding:.55rem 1.3rem;cursor:pointer}
+.suggest .cta:disabled{opacity:.6;cursor:wait}
+.suggest .sform{margin:1.5rem 0;padding:1.4rem;background:var(--paper);color:var(--ink);max-width:520px;border-left:10px dotted var(--red)}
+.suggest .sform .chips{margin-top:0}
+.suggest .sform .chips button{color:var(--ink);border-color:var(--ink)}
+.suggest .sform .chips button[aria-pressed=true]{background:var(--red);color:var(--paper);border-color:var(--red)}
+.suggest .sform label{display:block;margin-top:1rem;font-weight:700}
+.suggest .sform input,.suggest .sform textarea{display:block;width:100%;margin-top:.3rem;font:inherit;padding:.5rem;border:2px solid var(--ink);background:#fffaf0;color:var(--ink)}
+.suggest .step{margin:0 0 .6rem;font-weight:700}
+.suggest .ferr{color:var(--red);font-weight:700}
+.suggest .actions{display:flex;gap:.8rem;margin-top:1.2rem}
+.suggest .actions button:not(.cta){font:inherit;background:none;border:0;text-decoration:underline;cursor:pointer;color:var(--ink)}
+.suggest .sgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1.2rem}
+.suggest .sg{padding:1.2rem 1.5rem;background:var(--paper);color:var(--ink);display:flex;flex-direction:column;gap:.5rem;min-height:170px}
+.suggest .sg b{font:400 1.35rem/1.2 Limelight,serif}
+.suggest .sg p{margin:0;font-style:italic}
+.suggest .tag{font-size:.8rem;color:var(--dim)}
+.suggest .meta{margin-top:auto;display:flex;justify-content:space-between;align-items:center;gap:.6rem;font-size:.9rem}
+.suggest .stamp{border:2px dashed var(--red);color:var(--red);padding:.1rem .5rem;transform:rotate(-3deg);font-weight:700;white-space:nowrap}
+.suggest .k-movie,.suggest .k-series{-webkit-mask:radial-gradient(circle 9px at 0 50%,#0000 97%,#000) 0/51% 100% no-repeat,radial-gradient(circle 9px at 100% 50%,#0000 97%,#000) 100%/51% 100% no-repeat;
+ mask:radial-gradient(circle 9px at 0 50%,#0000 97%,#000) 0/51% 100% no-repeat,radial-gradient(circle 9px at 100% 50%,#0000 97%,#000) 100%/51% 100% no-repeat}
+.suggest .k-series{box-shadow:inset 0 10px 0 var(--red);padding-top:1.7rem}
+.suggest .k-anime{border-left:12px solid #e66f9a}
+.suggest .k-music{background:radial-gradient(circle at 90% 22%,var(--bulb) 0 7%,#0b0302 8% 9%,#2a0f0c 10% 20%,#0b0302 21% 100%);color:var(--paper);border-radius:6px}
+.suggest .k-music .tag{color:var(--bulb)}
+.suggest .k-music .stamp{color:var(--bulb);border-color:var(--bulb)}
+.suggest .k-book{background:repeating-linear-gradient(var(--paper) 0 27px,#dccaa0 27px 28px);border-left:4px double var(--red)}
