@@ -2726,6 +2726,19 @@
       "poster": "/tvUHVSTJV9ITON3oyHaWp7oaAc8.jpg"
     },
     {
+      "title": "Pi",
+      "year": 1998,
+      "kind": "Film",
+      "status": "Watched",
+      "rating": null,
+      "note": null,
+      "lists": [],
+      "rank": null,
+      "listRank": null,
+      "tmdbId": null,
+      "poster": null
+    },
+    {
       "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
       "year": 2003,
       "kind": "Film",
